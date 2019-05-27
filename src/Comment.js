@@ -4,10 +4,7 @@ import React, { Component } from 'react';
 
 export default class Comment extends Component {
     render() {
-        <div>
-
-
-        </div>
+        return <div className="Comment">{this.props.commentText}</div>
 
 
     }
